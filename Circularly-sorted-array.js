@@ -38,3 +38,8 @@ function isCircleSorted(arr) {
 }
 
 // or
+
+function isCircleSorted( arr ){
+  let a=arr.slice().sort((x,y)=>x-y)+"", b=""+arr+","+arr;
+  return b.indexOf(a)>-1;
+}
