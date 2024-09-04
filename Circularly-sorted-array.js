@@ -36,3 +36,5 @@ function isCircleSorted(arr) {
   }
   return true;
 }
+
+// or
